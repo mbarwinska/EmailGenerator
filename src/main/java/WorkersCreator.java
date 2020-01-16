@@ -13,7 +13,7 @@ class WorkersCreator {
         Pattern pattern = Pattern.compile(workerRegex);
         Matcher matcher = pattern.matcher(workerData);
         if (matcher.find()) {
-             worker = new Worker(matcher.group(1),matcher.group(2),matcher.group(3));
+            worker = new Worker(matcher.group(1), matcher.group(2), matcher.group(3));
         }
         return worker;
     }
