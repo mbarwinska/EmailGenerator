@@ -1,7 +1,5 @@
 import org.junit.Test;
 
-import org.junit.Assert.*;
-
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class EmailGeneratorTest {
